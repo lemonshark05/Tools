@@ -11,10 +11,10 @@
 		D92A670D28F38AE1000D0DFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A670C28F38AE1000D0DFC /* ContentView.swift */; };
 		D92A670F28F38AE2000D0DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92A670E28F38AE2000D0DFC /* Assets.xcassets */; };
 		D92A671228F38AE2000D0DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92A671128F38AE2000D0DFC /* Preview Assets.xcassets */; };
-		D92A671928F38B08000D0DFC /* Fee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A671828F38B08000D0DFC /* Fee.swift */; };
 		D92A671B28F38B77000D0DFC /* RulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A671A28F38B77000D0DFC /* RulerView.swift */; };
 		D92A671D28F39723000D0DFC /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A671C28F39723000D0DFC /* RecordView.swift */; };
 		D92A671F28F39785000D0DFC /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A671E28F39785000D0DFC /* HealthView.swift */; };
+		D92A677028F3CB7B000D0DFC /* FeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A676F28F3CB7B000D0DFC /* FeeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,10 +23,10 @@
 		D92A670C28F38AE1000D0DFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D92A670E28F38AE2000D0DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D92A671128F38AE2000D0DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D92A671828F38B08000D0DFC /* Fee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fee.swift; sourceTree = "<group>"; };
 		D92A671A28F38B77000D0DFC /* RulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerView.swift; sourceTree = "<group>"; };
 		D92A671C28F39723000D0DFC /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		D92A671E28F39785000D0DFC /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		D92A676F28F3CB7B000D0DFC /* FeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +59,7 @@
 		D92A670928F38AE1000D0DFC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				D92A676E28F3CB6D000D0DFC /* Views */,
 				D92A670A28F38AE1000D0DFC /* ToolsApp.swift */,
 				D92A670C28F38AE1000D0DFC /* ContentView.swift */,
 				D92A670E28F38AE2000D0DFC /* Assets.xcassets */,
@@ -71,12 +72,19 @@
 			isa = PBXGroup;
 			children = (
 				D92A671128F38AE2000D0DFC /* Preview Assets.xcassets */,
-				D92A671828F38B08000D0DFC /* Fee.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D92A676E28F3CB6D000D0DFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D92A676F28F3CB7B000D0DFC /* FeeView.swift */,
 				D92A671A28F38B77000D0DFC /* RulerView.swift */,
 				D92A671C28F39723000D0DFC /* RecordView.swift */,
 				D92A671E28F39785000D0DFC /* HealthView.swift */,
 			);
-			path = "Preview Content";
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,10 +159,10 @@
 			files = (
 				D92A671F28F39785000D0DFC /* HealthView.swift in Sources */,
 				D92A670D28F38AE1000D0DFC /* ContentView.swift in Sources */,
-				D92A671928F38B08000D0DFC /* Fee.swift in Sources */,
 				D92A670B28F38AE1000D0DFC /* ToolsApp.swift in Sources */,
 				D92A671D28F39723000D0DFC /* RecordView.swift in Sources */,
 				D92A671B28F38B77000D0DFC /* RulerView.swift in Sources */,
+				D92A677028F3CB7B000D0DFC /* FeeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
