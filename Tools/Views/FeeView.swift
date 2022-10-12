@@ -11,7 +11,7 @@ struct FeeView: View {
     @State private var rtime = Date.now
     @State private var checkAmount = 0.0
     @State private var numofPeople = 2
-    @State private var tipPercentage = 20
+    @State private var tipPercentage = 15
     @FocusState private var amountIsFocus:Bool
     
     let tipPercentages = [10, 15, 20, 25, 0]
@@ -53,7 +53,7 @@ struct FeeView: View {
                 Section {
                     DatePicker("Please enter a date", selection: $rtime).labelsHidden()
                 }
-                Section {
+                Section("history record") {
                     Text(Date.now.formatted(date: .long, time: .shortened))
                 }
             }
