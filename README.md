@@ -1,5 +1,5 @@
 # Tools
-swift5.7+Xcode14
+swift5.7 + Xcode14
 
 Tools for the daliy life：
 
