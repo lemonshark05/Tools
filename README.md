@@ -1,6 +1,8 @@
 # Tools
 swift5.7 + Xcode14
 
+icon: SF Symbols application
+
 Tools for the daliy life：
 
 1.Calculation of tipping and per capita spending
