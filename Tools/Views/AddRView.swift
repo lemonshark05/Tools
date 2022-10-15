@@ -34,6 +34,7 @@ struct AddRView: View {
                             Text($0)
                         }
                     }
+//                    .pickerStyle(.wheel)
                     DatePicker("Date", selection: $rdata)
                     DatePicker("Finished Date", selection: $predictData)
                 }
