@@ -17,6 +17,9 @@ struct HealthView: View {
             Section {
                 Text(Date.now.formatted(date: .long, time: .shortened))
             }
+            Section {
+                
+            }
         }
     }
 }
